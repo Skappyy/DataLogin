@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
     <title>Login System</title>
@@ -7,12 +5,12 @@
     <link rel="stylesheet" href="css.css" type="text/css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="main-wrapper">
-                <ul>
-                    <li><a href="Index.php">Home</a></li>
-                </ul>
+<header>
+    <nav>
+        <div class="main-wrapper">
+            <ul>
+                <li><a href="Index.php">Home</a></li>
+            </ul>
             <div class="nav-login">
                 <form>
                     <input type="text" name="uid" placeholder="Username/email">
@@ -21,13 +19,8 @@
                 </form>
                 <a href="signup.php">Sign Up</a>
             </div>
-            </div>
-        </nav>
-    </header>
-    <section class="main-container">
-        <div class="main-wrapper">
-            <h2>Home Page</h2>
         </div>
-    </section>
+    </nav>
+</header>
 </body>
 </html>
