@@ -88,3 +88,35 @@ header .nav-login a{
     line-height: 50px;
     text-align: center;
 }
+.signup-form {
+    width: 400px;
+    height: 0 auto;
+    padding-top: 30px;
+}
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    border: none;
+    margin-bottom: 4px;
+    background: #fff;
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+.signup-form button{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    margin: 0 auto;
+    background-color: #222;
+    font-family: Arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.signup-form button:hover{
+    background-color: #111111;
+}
