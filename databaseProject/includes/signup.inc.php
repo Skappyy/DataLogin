@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POSt['submit'])){
+    if(isset($_POST['submit'])){
         include_once 'dbh.inc.php';
         $first = mysqli_real_escape_string($conn, $_POST['first']);
         $last = mysqli_real_escape_string($conn, $_POST['last']);
@@ -45,8 +45,4 @@ else{
             }
         }
     }
-}
-else{
-    header("Location: ../signup.php");
-    exit();
 }

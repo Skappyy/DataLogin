@@ -1,7 +1,7 @@
 <?php
-    $dbServername = "localhost"
-    $dbUsername = "root"
-    $dbPassword = "Wind"
-    $dbName = "loginsystem"
+    $dbServername = "localhost";
+    $dbUsername = "root";
+    $dbPassword = "";
+    $dbName = "datalogin";
 
-    $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName)
+    $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
